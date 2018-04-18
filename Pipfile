@@ -1,21 +1,15 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 tensorflow = "*"
 ipython = {extras = ["notebook"]}
 numpy = "*"
 
-
 [dev-packages]
-
-
+"flake8" = "*"
 
 [requires]
-
 python_version = "3.6"
